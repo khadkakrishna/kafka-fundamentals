@@ -1,0 +1,4 @@
+GET /wikimedia
+GET /wikimedia/_count
+GET /wikimedia/_search
+GET /wikimedia/_doc/e3c7013f-06f8-4991-a5a3-8b375e049eea
