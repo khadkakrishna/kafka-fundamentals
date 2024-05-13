@@ -39,7 +39,7 @@ public class WikimediaChangesProducer {
 
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
-        String topic = "wikimedia.recentchanges";
+        String topic = "wikimedia.recentchange";
 
         return new WikimediaChangeHandler(kafkaProducer, topic);
     }

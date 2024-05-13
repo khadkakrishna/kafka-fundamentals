@@ -124,7 +124,7 @@ public class OpenSearchConsumer {
                 logger.info("The wikimedia index already exists");
             }
 
-            kafkaConsumer.subscribe(Collections.singleton("wikimedia.recentchanges"));
+            kafkaConsumer.subscribe(Collections.singleton("wikimedia.recentchange"));
 
 
             while (true){
